@@ -1,44 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Cashlet - Budgeting Made Easy</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cashlet - Private Budgeting with Google Sheets</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+                   Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue",
+                   sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";
       max-width: 800px;
       margin: 40px auto;
       padding: 0 20px;
-      line-height: 1.6;
+      line-height: 1.7;
     }
-    h1 {
+    h1, h2 {
       color: #2c3e50;
     }
     a {
       color: #3498db;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #666;
     }
   </style>
 </head>
 <body>
-<h1>💰 Cashlet - Budgeting Made Easy</h1>
-<p>Cashlet is a simple, privacy-focused budgeting app that stores your data in your personal Google Sheets. No data is being gathered everything is store on your personal Google Account.</p>
 
-<h2>🚀 Get Started</h2>
+<h1>💰 Cashlet - Private Budgeting with Google Sheets</h1>
+<p><strong>Cashlet</strong> is a simple, lightweight budgeting app that gives you full control over your financial data by storing it directly in your own <strong>Google Sheets</strong> — no servers, no syncing, no hidden tracking.</p>
+
+<h2>🚀 How It Works</h2>
 <ul>
-  <li><a href="https://play.google.com/apps/testing/com.vlr.cashlet">Download on Google Play (Internal Testing)</a></li>
+  <li>✅ You sign in with your Google account</li>
+  <li>✅ Cashlet creates or connects to a Google Sheet that you own</li>
+  <li>✅ All budgeting data (expenses, income, categories, etc.) is written directly to that sheet</li>
+  <li>✅ You can view, edit, or export your data at any time — even outside the app</li>
 </ul>
 
-<h2>✨ Features</h2>
+<p>There is no server component. We do not see, collect, or store any of your personal or financial data.</p>
+
+<h2>🔐 Your Data, Your Rules</h2>
+<p>Cashlet was built around a core principle: <strong>you own your data</strong>. Your data stays in your Google account, and you have full access and control. You can delete the sheet, share it, back it up — we never see it, and it's never sent to any third-party server.</p>
+
+<h2>🧠 Features</h2>
 <ul>
-  <li>Google Sheets integration</li>
-  <li>Share your budget with your family!</li>
-  <li>Sharing your data is your decision!</li>
-  <li>Ads + Pro upgrade support</li>
+  <li>📊 Personal budget tracking</li>
+  <li>🔄 Automatically syncs changes to your Google Sheet</li>
+  <li>👤 Sign in with Google</li>
+  <li>🆓 Free version with optional upgrade to remove ads</li>
+</ul>
+
+<h2>🧩 Open Source & Credits</h2>
+<p>Cashlet proudly uses the open-source library <a href="https://github.com/ValeriGYordanov/GSheetSync" target="_blank">GSheetSync</a> for communicating with the Google Sheets API using OAuth2 access tokens.</p>
+
+<p>We believe in transparency and openness. If you're curious about how the app communicates with your sheet, you can explore the source code of the core libraries we rely on.</p>
+
+<h2>📥 Get Cashlet</h2>
+<ul>
+  <li><a href="https://play.google.com/store/apps/details?id=com.vlr.cashlet">📱 Download on Google Play</a></li>
+  <li><a href="https://github.com/ValeriGYordanov/GSheetSync">🔗 GSheetSync on GitHub</a></li>
 </ul>
 
 <footer>
-  <p>Made with ❤️ by <a href="https://github.com/ValeriGYordanov">Valeri Yordanov</a></p>
+  <p>Made with ❤️ by <a href="https://github.com/ValeriGYordanov">VLR</a>. No servers. No tracking. Just your data, your way.</p>
+  <p>
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="terms.html">Terms & Conditions</a>
+  </p>
 </footer>
+
 </body>
 </html>
